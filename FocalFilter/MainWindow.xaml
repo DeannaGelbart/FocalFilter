@@ -1,0 +1,40 @@
+﻿<Window x:Class="FocalFilter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="FocalFilter" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        Height="322" Width="452" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Grid Height="281" Width="392">
+        <Label Content="Block for" Height="28" HorizontalAlignment="Left" Margin="106,240,0,0" Name="labelBlockFor" VerticalAlignment="Top" />
+        <ComboBox Height="23" HorizontalAlignment="Left" SelectedIndex="3" Margin="166,242,0,0"  Name="comboBoxBlockFor" VerticalAlignment="Top" Width="120" >
+            <ComboBoxItem Content="5 minutes" />
+            <ComboBoxItem Content="10 minutes" />
+            <ComboBoxItem Content="15 minutes" />
+            <ComboBoxItem Content="30 minutes" />
+            <ComboBoxItem Content="45 minutes" />
+            <ComboBoxItem Content="1 hour" />
+            <ComboBoxItem Content="2 hours" />
+            <ComboBoxItem Content="4 hours" />
+            <ComboBoxItem Content="6 hours" />
+            <ComboBoxItem Content="8 hours" />
+            <ComboBoxItem Content="12 hours" />
+        </ComboBox>
+        <Button Content="Block My Site List" Click="buttonBlockList_Click" Height="23" HorizontalAlignment="Right" Margin="0,211,85,0" Name="buttonBlockList" VerticalAlignment="Top" Width="113" />
+        <Button  Click="buttonEditList_Click"  Content="Edit My Site List" Height="23" HorizontalAlignment="Left" Margin="70,211,0,0" Name="buttonEditList" VerticalAlignment="Top" Width="111" />
+        <TextBlock Margin="12,3,3,75">
+            <LineBreak/>
+FocalFilter (<Hyperlink NavigateUri='http://www.focalfilter.com' RequestNavigate="Hyperlink_RequestNavigate">focalfilter.com</Hyperlink>) blocks distracting websites.<LineBreak/>   
+<LineBreak/> 
+            You may have to completely <Bold>exit and restart</Bold> your browser for the<LineBreak/>
+            blocks to take effect.  You may have to do the same to make the<LineBreak/>
+            blocked sites work again once the blocks are gone. <LineBreak/><LineBreak/>           
+           FocalFilter will remove any active blocks if you restart Windows.<LineBreak/>             
+            <LineBreak/>If you are having trouble with FocalFilter, or you are using it on a tablet<LineBreak/>
+            device, please read more: <Hyperlink NavigateUri='http://focalfilter.com/win10' RequestNavigate="Hyperlink_RequestNavigate">Windows 10</Hyperlink>,
+            <Hyperlink NavigateUri='http://focalfilter.com/win81' RequestNavigate="Hyperlink_RequestNavigate">8.1</Hyperlink>,
+            <Hyperlink NavigateUri='http://focalfilter.com/win8' RequestNavigate="Hyperlink_RequestNavigate">8</Hyperlink>, 
+            <Hyperlink NavigateUri='http://focalfilter.com/win7' RequestNavigate="Hyperlink_RequestNavigate">7</Hyperlink>, and 
+             <Hyperlink NavigateUri='http://focalfilter.com/winXP' RequestNavigate="Hyperlink_RequestNavigate">XP</Hyperlink>.        
+
+        </TextBlock>
+    </Grid>
+</Window>
