@@ -54,30 +54,6 @@ namespace FocalFilter
                 setting.SaveConfig();
                 Edited(e);
             }
-            // Some of these messages are unnecessary and slow the user down, some others are better
-            // handled in FocalFilterSettings.cs, so commenting them out here.
-            //switch(results)
-            //{
-                //case FocalFilterSettings.ValidationErrors.Empty:
-                //    MessageText =  "Please enter websites, each on a line by itself.";
-                //    break;
-                // No need to say anything regarding dup sites.
-                //case FocalFilterSetting.ValidationErrors.DuplicateSites:
-                //    MessageText = "There were one or more duplicate sites in your list. We've removed the duplicates for you.";
-                //    break;
-                //case FocalFilterSettings.ValidationErrors.InvalidSiteFormat:
-                //    MessageText = "The format of the sites is incorrect";
-                //    break;
-                // case FocalFilterSettings.ValidationErrors.WildcardsUnSupported:
-                //    MessageText = "Wildcards are not supported.";
-                //    break;
-                // No need to say anything regarding removing the http:// part of a url.
-                //case FocalFilterSetting.ValidationErrors.RemovedProtocol:
-                //    MessageText = "There was a protocol specifier in one of the sites that you entered. We've removed it for you.";
-                //    break;
-                //case FocalFilterSetting.ValidationErrors.NotProccessed:
-                //case FocalFilterSetting.ValidationErrors.Successfull:                    
-            //}
             if (MessageText != null)
             {
                 MessageBox.Show(MessageText,"FocalFilter",
