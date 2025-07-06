@@ -14,3 +14,5 @@ FocalFilter/FocalFilter is the main app, which adds and removes blocks to the Wi
 FocalFilter/FocalFilterHelper is a helper app which runs when Windows boots. It removes any blocks that FocalFilter previously put in the hosts file.  The idea is that if the user really needs to access a blocked site, they simply need to reboot.
 
 Setup/ is the InstallShield configuration for installation.
+
+FocalFilter was created by Deanna Gelbart and Shan Naziripour.
