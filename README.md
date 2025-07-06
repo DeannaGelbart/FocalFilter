@@ -10,11 +10,8 @@ FocalFilter was created by Deanna Gelbart and Shan Naziripour.
 
 ## Source code
 
-This Github repo contains the Visual Studio project for FocalFilter. There are three parts:
+This Github repo contains the C# source code for FocalFilter, taken from the Visual Studio project. 
 
 FocalFilter/FocalFilter is the main app, which the user uses to add and removes blocks manually.
 
 FocalFilter/FocalFilterHelper is a helper app which runs when Windows boots. It removes any blocks that FocalFilter previously put in the hosts file.  The idea is that if the user really needs to access a blocked site, they simply need to reboot.
-
-Setup/ is the InstallShield configuration for installation.
-
