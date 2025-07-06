@@ -6,10 +6,7 @@ FocalFilter is a free Windows productivity tool that helps you focus by temporar
 
 FocalFilter was created by Deanna Gelbart and Shan Naziripour.
 
-![ff_edit2](https://github.com/user-attachments/assets/cc710e5a-2888-4b9b-8541-0282c5c82d32)
-
-<img width="429" alt="Screenshot 2025-07-05 at 7 22 30 PM" src="https://github.com/user-attachments/assets/c0a15a26-cf4a-47d0-9748-fa291f004c85" />
-
+![ff_block2](https://github.com/user-attachments/assets/5a7d2604-bc32-4bdb-ab88-0cbf895b4cf7)
 
 ## Source code
 
