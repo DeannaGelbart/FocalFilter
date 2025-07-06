@@ -10,7 +10,7 @@ FocalFilter was created by Deanna Gelbart and Shan Naziripour.
 
 ## Source code
 
-This Github repo contains the C# source code for FocalFilter, taken from the Visual Studio project. 
+This Github repo contains C# source code for FocalFilter, taken from the Visual Studio project. 
 
 FocalFilter/FocalFilter is the main app, which the user uses to add and removes blocks manually.
 
