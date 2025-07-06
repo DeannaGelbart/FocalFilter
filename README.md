@@ -14,4 +14,4 @@ This Github repo contains C# source code for FocalFilter, taken from the Visual 
 
 FocalFilter/FocalFilter is the main app, which the user uses to add and removes blocks manually.
 
-FocalFilter/FocalFilterHelper is a helper app which runs when Windows boots. It removes any blocks that FocalFilter previously put in the hosts file.  The idea is that if the user really needs to access a blocked site, they simply need to reboot.
+FocalFilter/FocalFilterHelper is a helper app which runs when Windows boots. It removes any blocks that FocalFilter previously put in the hosts file.  The intent is that if the user really needs to access a blocked site, they simply need to reboot.
